@@ -17,8 +17,8 @@ This is a solution to the [Four card feature section on Frontend Mentor](https:/
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/order-summary-component-solution-with-scss-Fvkp9Hm3u)
-- [Live Site URL:](https://dominik221.github.io/fmexam1.github.io/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/four-card-feature-section-with-scss-JL4vS8Yer)
+- [Live Site URL:](https://dominik221.github.io/fmexam6.github.io/)
 
 ## My process
 
