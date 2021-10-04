@@ -1,0 +1,104 @@
+//
+// GENERALS
+// ----------------------------------------------
+
+body {
+    background-color: $color-bg-body;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: $font-family;
+}
+
+.container {
+    padding: .9375rem;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+    position: relative;
+    background-color: white;
+    padding: 2.8125rem;
+    height: 30vh;
+}
+
+.supervisor img,
+.team-builder img,
+.karma img,
+.calculator img {
+    position: absolute;
+    right: 1.875rem;
+    bottom: 1.875rem;
+}
+
+
+.offer {
+
+    .supervisor {
+        margin-top: 10.875rem;
+        border-top: .3125rem solid $border-supervisor;
+        border-radius: .4375rem;
+        -webkit-border-radius: .4375rem;
+        -moz-border-radius: .4375rem;
+        -ms-border-radius: .4375rem;
+        -o-border-radius: .4375rem; 
+        box-shadow:  -0.625rem 1.875rem 3.125rem $color-shadow;  
+}
+
+    .team-builder {
+        margin-bottom: 2.8125rem;
+        border-top: .3125rem solid $border-team-builder;
+        border-radius: .4375rem;
+        -webkit-border-radius: .4375rem;
+        -moz-border-radius: .4375rem;
+        -ms-border-radius: .4375rem;
+        -o-border-radius: .4375rem;
+        box-shadow:  0rem 1.875rem 3.125rem $color-shadow; 
+    }
+
+    .karma {
+        border-top: .3125rem solid $border-karma;
+        border-radius: .4375rem;
+        -webkit-border-radius: .4375rem;
+        -moz-border-radius: .4375rem;
+        -ms-border-radius: .4375rem;
+        -o-border-radius: .4375rem;
+        box-shadow:  0rem 1.875rem 3.125rem $color-shadow; 
+    }
+
+    .calculator {
+        margin-top: 10.875rem;
+        border-top: .3125rem solid $border-calculator;
+        border-radius: .4375rem;
+        -webkit-border-radius: .4375rem;
+        -moz-border-radius: .4375rem;
+        -ms-border-radius: .4375rem;
+        -o-border-radius: .4375rem;
+        box-shadow:  .9375rem 1.875rem 3.125rem $color-shadow; 
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+    .attribution {
+        color: $color-light-text;
+    }
+
+    a {
+        color: $color-dark-text;
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+

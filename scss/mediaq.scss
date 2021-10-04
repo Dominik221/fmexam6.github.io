@@ -1,0 +1,35 @@
+//
+// MEDIA QUERIES
+// ----------------------------------------------
+
+@media screen and (max-width: 1200px) {
+
+    .offer .supervisor,
+    .offer .calculator,
+    .offer .karma {
+        margin: 0 0 2.8125rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .offer .supervisor,
+    .offer .calculator,
+    .offer .karma {
+        margin: 0 0 2.8125rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1,
+    h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .main-text p {
+        padding: 0 40px 0;
+        font-size: 15px;
+    }
+
+}
